@@ -45,6 +45,9 @@ module.exports = {
             },
         ]
     },
+    resolve: {
+        extensions: ['.js', '.jsx']
+    },
     plugins: [
         new MiniCssExtractPlugin({
             filename: 'style.css',
