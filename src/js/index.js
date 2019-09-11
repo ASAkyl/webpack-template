@@ -1,10 +1,8 @@
 import 'bootstrap'
 import '../scss/style.scss'
 
-import $ from 'jquery'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-$(function () {
-    // $('body').addClass('text-center')
-
-    $('#test-id').text('added by jQuery')
-})
+ReactDOM.render(<App/>, document.getElementById("root"));
